@@ -119,23 +119,23 @@
 		 * Portfolio pop up
 		/* ---------------------------------------------- */
 
-		$('#portfolio').magnificPopup({
-			delegate: 'a.pop-up',
-			type: 'image',
-			gallery: {
-				enabled: true,
-				navigateByImgClick: true,
-				preload: [0,1]
-			},
-			image: {
-				titleSrc: 'title',
-				tError: 'The image could not be loaded.',
-			}
-		});
+		// $('#portfolio').magnificPopup({
+		// 	delegate: 'a.pop-up',
+		// 	type: 'image',
+		// 	gallery: {
+		// 		enabled: true,
+		// 		navigateByImgClick: true,
+		// 		preload: [0,1]
+		// 	},
+		// 	image: {
+		// 		titleSrc: 'title',
+		// 		tError: 'The image could not be loaded.',
+		// 	}
+		// });
 
-		$('.video-pop-up').magnificPopup({
-			type: 'iframe'
-		});
+		// $('.video-pop-up').magnificPopup({
+		// 	type: 'iframe'
+		// });
 
 		/* ---------------------------------------------- /*
 		 * A jQuery plugin for fluid width video embeds
